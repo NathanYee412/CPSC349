@@ -8,7 +8,7 @@
     font-weight: normal;
     font-style: normal;
 }
- 
+
 
 @font-face {
     font-family: 'lakeshore';
@@ -20,54 +20,55 @@
     font-weight: normal;
     font-style: normal;
 }
- 
-html, body {
+
+html,
+body {
     height: 100%;
 }
- 
+
 body {
     display: flex;
     flex-direction: column;
- 
+
     font-size: 10px;
     background: rgb(149, 194, 215);
 }
- 
-a { 
+
+a {
     text-decoration: none;
 }
- 
-.main-header { 
+
+.main-header {
     flex: 0 1 auto;
 }
- 
+
 .main-content {
     flex: 1 1 auto;
     display: flex;
     flex-direction: column;
 }
- 
+
 .logo-text {
     background: white;
- 
+
     text-align: center;
     text-transform: uppercase;
     font-family: lakeshore;
     font-size: 4rem;
 }
- 
-.thumbnail-item + .thumbnail-item {
+
+.thumbnail-item+.thumbnail-item {
     margin-top: 10px;
 }
- 
+
 .thumbnail-item {
     display: inline-block;
     min-width: 120px;
     max-width: 120px;
     border: 1px solid rgb(100%, 100%, 100%);
-    border: 1px solid rgba(100%, 100%, 100%, 0.8);  
+    border: 1px solid rgba(100%, 100%, 100%, 0.8);
 }
- 
+
 .thumbnail-list {
     flex: 0 1 auto;
     order: 2;
@@ -75,50 +76,50 @@ a {
     justify-content: space-between;
     list-style: none;
     padding: 0;
- 
+
     white-space: nowrap;
     overflow-x: auto;
 }
- 
+
 .thumbnail-image {
     width: 100%;
     display: block;
 }
- 
+
 .thumbnail-title {
     display: block;
     margin: 0;
     padding: 4px 10px;
- 
+
     background: rgb(96, 125, 139);
     color: rgb(202, 238, 255);
-    
+
     font-size: 18px;
-  }
- 
-  .detail-image-container { 
-      flex: 1 1 auto;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-  }
- 
-  .detail-image-frame {
-      text-align: center;
-      position: relative;
-  }
+}
 
-  .detail-image { 
-      width: 90%;
-  }
+.detail-image-container {
+    flex: 1 1 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
-  .detail-image-title {
-      position: absolute;
-      bottom: -16px;
-      left: 4px;
+.detail-image-frame {
+    text-align: center;
+    position: relative;
+}
 
-      font-family: airstreamregular;
-      color: white;
-      text-shadow: rgba(0, 0, 0, 0.9) 15px 18px 30px;
-      font-size: 5em;
-  }
+.detail-image {
+    width: 90%;
+}
+
+.detail-image-title {
+    position: absolute;
+    bottom: -16px;
+    left: 4px;
+
+    font-family: airstreamregular;
+    color: white;
+    text-shadow: rgba(0, 0, 0, 0.9) 15px 18px 30px;
+    font-size: 5em;
+}
