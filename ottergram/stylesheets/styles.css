@@ -82,8 +82,8 @@ a {
 }
 
 .thumbnail-image {
-    width: 100%;
     display: block;
+    width: 100%;  
 }
 
 .thumbnail-title {
@@ -122,4 +122,26 @@ a {
     color: white;
     text-shadow: rgba(0, 0, 0, 0.9) 15px 18px 30px;
     font-size: 5em;
+}
+
+@media all and (min-width: 1000px) {
+    /* found on page 97 of the book */
+    .main-content {
+        flex-direction: row;
+        overflow: hidden;
+    } 
+
+    .thumbnail-list {
+        flex-direction: column;
+        order: 0;
+        margin-left: 20px;
+    }
+
+    .thumbnail-item {
+        max-width: 260px;
+    }
+
+    .thumbnail-item + .thumbnail-item {
+        margin-top: 20px;
+    }
 }
