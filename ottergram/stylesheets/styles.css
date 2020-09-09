@@ -83,7 +83,7 @@ a {
 
 .thumbnail-image {
     display: block;
-    width: 100%;  
+    width: 100%;
 }
 
 .thumbnail-title {
@@ -125,11 +125,12 @@ a {
 }
 
 @media all and (min-width: 1000px) {
+
     /* found on page 97 of the book */
     .main-content {
         flex-direction: row;
         overflow: hidden;
-    } 
+    }
 
     .thumbnail-list {
         flex-direction: column;
@@ -141,7 +142,7 @@ a {
         max-width: 260px;
     }
 
-    .thumbnail-item + .thumbnail-item {
+    .thumbnail-item+.thumbnail-item {
         margin-top: 20px;
     }
 }
