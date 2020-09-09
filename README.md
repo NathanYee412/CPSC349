@@ -1,6 +1,14 @@
 "# CPSC349" 
+Ottergram front end web development project 
+Nathan Yee
+Resources from BNR 
 
-##################################################################################
+
+
+On page 133 in book 
+
+
+#############################################################################
 NOTES
 
  (In general, the order of your
@@ -38,12 +46,12 @@ flex-grow: 1 = i would like to grow as much as possible
 
 
 
-##################################################################################
+#############################################################################
 
 
 
 
-##################################################################################
+#############################################################################
 html changes 
 
             <a href="img/otter1.jpg" data-image-role="trigger" 
@@ -70,7 +78,8 @@ changed to
 
 
 
-##################################################################################backup of original html structure 
+#############################################################################
+backup of original html structure 
 
            <a href="img/otter2.jpg" data-image-role="trigger" data-image-title="How Deep is Your Love?"
                 data-image-url="img/otter2.jpg">
